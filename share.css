@@ -1,0 +1,313 @@
+
+  .wrapper .main{
+    width: 900px;
+    margin: 0 auto;
+    padding: 23px 0 100px 0;
+    position: relative;
+    color: #666;
+}
+.main .share-title{
+    color: #2C5370;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 16px;
+    border: 1px solid #C7CACC;
+    margin: 0 1px;
+    box-shadow: inset 0 0 3px #ccc;
+    border-bottom: none;
+    background: url(http://s.srcdd.com/img/bg/sidemenu-item.$5106.png) repeat;
+    padding: 20px 40px 25px;
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -moz-border-top-left-radius: 4px;
+    -moz-border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    position: relative;
+}
+.main .share-title .share-go-home{
+    position: absolute;
+    top:21px;
+    right: 21px;
+    font-size: 14px;
+    color: #2c5370;
+}
+.main .share-body{
+    position:relative;
+    padding:20px 0 0;
+    top:-4px;
+    background-color:#fff;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    -webkit-box-shadow:1px 2px 3px #ccc;
+    -moz-box-shadow:1px 2px 3px #ccc;
+    box-shadow:1px 2px 3px #ccc;
+    margin-right:1px;
+}
+.main .share-body .mod{
+    padding: 0 40px;
+}
+.main .share-ext{
+    background: #f8f8f8;
+}
+.main .share-mod{
+    border-bottom: 1px solid #e4e4e4;
+    padding: 20px 40px 20px;
+}
+.main .share-panel{
+    padding-top: 45px;
+}
+.main .share-panel .share-flash{
+    border: 1px solid #7c7c7c;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    margin: 54px 0 10px;
+    width: 817px;
+    height: 376px;
+    overflow: hidden;
+}
+.main .share-btn{
+    float: left;
+    display: inline-block;
+    text-align: center;
+    width: 213px;
+    height: 63px;
+    background: #eee;
+    border-radius: 30px;
+    /* background: url(http://s.srcdd.com/img/element/share/share-btn.$6034.png) no-repeat; */
+    margin-left: 25px;
+}
+.main .share-btn a{
+    cursor: move;
+    width: 213px;
+    height: 63px;
+    text-align: center;
+    font-size: 21px;
+    line-height: 63px;
+    /*text-indent: -9999px;*/
+    overflow: hidden;
+}
+.main .msie a{
+    cursor: pointer;
+}
+.main .share-tip{
+    float: left;
+    display: inline;
+    margin-left: 30px;
+    color: #929292;
+    height: 93px;
+    line-height: 60px;
+}
+.main .share-intro{
+    clear: both;
+    font-size: 16px;
+    color: #666;
+    padding-top: 50px;
+}
+.main .share-browsers{
+    position: relative;
+    border-bottom: none;
+}
+.main #share-steps-title{
+    font-size: 14px;
+    color: #444;
+    font-weight: normal;
+    background: url(http://s.srcdd.com/img/element/share/share-arrow.png) no-repeat 60px 0px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 23px;
+    width: 101px;
+    height: 20px;
+    left: 105px;
+}
+.main #share-steps-title.on{
+    background-position: 60px -33px;
+}
+.main .browser-icon,
+.main .browser-intro,
+.main .browser-thumb{
+    float: left;
+    display: inline;
+}
+.main .browser-intro{
+    color: #929292;
+    line-height: 22px;
+    margin-left: 22px;
+    width: 420px;
+}
+.main .browser-intro h2{
+    font-weight: normal;
+    color:#6e6e6e;
+    margin-bottom: 5px;
+}
+.main .browser-intro
+.main .browser-thumb{
+    width: 357px;
+    height: 158px;
+    background: url(http://s.srcdd.com/img/element/share/tip1.$5475.png) no-repeat;
+    margin:0 0 0 10px;
+}
+.main .browser-intro
+.main .share-steps{
+    background: #fff;
+    -webkit-border-bottom-left-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -moz-border-bottom-left-radius: 4px;
+    -moz-border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.main .share-steps #share-steps{
+    border-top:1px solid #E4E4E4;
+    padding: 30px 10px 0;
+}
+.main .share-steps li{
+    float: left;
+    display: inline;
+    width: 432px;
+    height: 384px;
+}
+.main .share-arrow{
+    position: absolute;
+    top:0;
+    left: 130px;
+    width: 135px;
+    height: 130px;
+    background: url(http://s.srcdd.com/img/element/share/share-icons.$5381.png) no-repeat;
+    _background: url(http://s.srcdd.com/img/element/share/share-icons-ie.$5381.png) no-repeat;
+}
+.main .share-ext-mod{
+    margin-top: 15px;
+}
+.main .share-ext{
+    padding: 20px 40px;
+}
+.main .share-ext-title{
+    color:#8f8f8f;
+    font-size: 14px;
+}
+.main .share-ext-btns{
+    margin:0 0 40px;
+}
+.main .share-ext-btns .title{
+    float: left;
+    display: inline;
+    width: 120px;
+    line-height: 35px;
+    font-size: 14px;
+    color: #444;
+}
+.main .share-ext-btns ul{
+    float:left;
+    display: inline;
+}
+.main .share-ext-btns ul li{
+    width: 210px;
+    float: left;
+    display: inline;
+    height: 35px;
+    line-height: 35px;
+}
+.main .share-ext-btns img,
+.main .share-ext-btns input{
+    vertical-align: middle;
+}
+.main .share-ext-btns input{
+    margin:1px 10px 0 0;
+}
+.main .share-ext-btns .share-style .title{
+    line-height: 20px;
+}
+.main .share-ext-btns .share-style ul li{
+    width: 90px;
+    line-height: 20px;
+    height: 20px;
+    margin-bottom: 0;
+}
+.main .share-ext-btns .share-style ul li.last{
+    width: 510px;
+}
+.main .share-ext-btns .share-style input{
+    margin-top: -1px;
+}
+.main .share-ext-btns .share-style span.info{
+    color:#929292;
+}
+.main .share-ext-btns .item{
+    border-bottom: 1px solid #e4e4e4;
+    padding: 40px;
+}
+.main .share-ext-code h1{
+    margin-bottom: 20px;
+    color: #444;
+    font-weight: normal;
+    font-size: 14px;
+}
+.main .share-body .share-ext-code{
+    position: relative;
+    padding-bottom: 20px;
+}
+.main .share-ext-code textarea{
+    font-size:14px;
+    color:#505050;
+    line-height:20px;
+    padding:7px;
+    width:640px;
+    height: 140px;
+    outline:none;
+    border:1px solid #dddddd;
+    border-top:1px solid #ebebeb;
+    border-bottom: 1px solid #b7b7b7;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background: #fff;
+    font-family: Courier,"Consolas","Bitstream Vera Sans Mono","Courier New",monospace!important;
+    resize: none;
+}
+.main .share-ext-code .copy-share-holder{
+    width: 79px;
+    height: 33px;
+    margin-top: 10px;
+}
+#share-codecopy-msg{
+    position: absolute;
+    left:130px;
+    bottom: 30px;
+}
+
+.main .share-chrome{
+    padding-top:45px;
+    padding-bottom: 70px;
+    background: #fff;
+    position: relative;
+}
+.main .share-chrome img{
+    position: absolute;
+    right:50px;
+    top:45px;
+}
+.main .download-chrome{
+    width:268px;
+    height: 54px;
+    background: url(http://s.srcdd.com/img/element/share/chrome-download.$6764.png) no-repeat -2px 0;
+    display: block;
+    text-indent: -9999px;
+    overflow: hidden;
+    margin-top:30px;
+}
+.main .chrome-intro{
+    color: #8f8f8f;
+    display: block;
+    margin-top: 10px;
+}
+.main .chrome-intro:hover{
+    color: #444;
+}
+.main .browser-intro ul li{
+    background: url(http://s.srcdd.com/img/element/share/dot.$6026.jpg) no-repeat 0 4px;
+    padding-left: 10px;
+}
+.main .share-btns{
+    background: #f8f8f8;
+}
