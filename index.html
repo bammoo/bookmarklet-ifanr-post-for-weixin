@@ -4,7 +4,7 @@
 <meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=100">
 <link rel="stylesheet" href="base.css">
 <link rel="stylesheet" href="share.css">
-<title>分享到 mindstore.io</title>
+<title>去背景书签工具</title>
 </head>
 <body>
 <div class="wrapper">
@@ -16,22 +16,19 @@
 <div class="share-mod share-panel">
   <div class="clearfix">
     <div id="share-btn" class="share-btn ">
-      <a href="javascript:void((function() {var d=document; var w=window; var f='http://mindstore.io/mind/create/'; var l=d.location; var e=encodeURIComponent; var p='?mind_title='+d.title; var u= '&mind_url=' + e(l.href); var g= f+p+u; function a(){if(!w.open(g,'t','toolbar=0,resizable=0,scrollbars=1,status=1,width=700,height=500')){l.href=g; } } if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0); }else{a(); } void(0); })());">分享到 mindstore.io </a>
+      <a href="javascript: void(0); (function($) {var version = '版本：v.0.0.2。 update at：2015-7-23'; /* 去背景 */ $('html, body, #container, #container-inner, #content-outer, #content').css('background-color', 'transparent'); /* 设置字体 */ $('article p, article div').css('font-size', '16px'); $('article p, article h3, article h2, article h1').css('padding', '0 15px'); $('.entry-content').find('span[id^="more"]').remove(); $('.entry-content').find('h1, h2 ,h3').css('font-weight', '700'); $('.entry-content').find('img').css('max-width', 'inherit'); alert('已完成！' + version); console.log('已完成！' + version) })(jQuery);">去背景书签工具</a>
     </div>
     <div class="share-tip">
       <div class="browser-intro">
-        <h2>在浏览器中添加“分享到 mindstore.io ”书签，随时分享内容到 mindstore.io 。</h2>
+        <h2>在浏览器中添加“去背景书签工具”书签。</h2>
         <ul>
-        <li>把“分享到 mindstore.io ”按钮拖到书签栏中</li>
+        <li>把“去背景书签工具”按钮拖到书签栏中</li>
         <li>如果你没看到书签栏，点击 设置图标 &gt; 书签 &gt; 显示书签栏</li>
         </ul>
       </div>
     </div>
   </div>
 </div>
-  <div class="share-mod clearfix">
-    <h3><span style="color: red">注意事项：请先登录 <a href="http://mindstore.io">mindstore.io</a> 再点击分享书签。</span></h3>
-  </div>
 </div>
 <div class="share-arrow" id="share-arrow"></div>
 </body></html>
